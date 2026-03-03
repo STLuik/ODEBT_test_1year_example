@@ -6,4 +6,11 @@
 
 # To run the code set:
 #   Open the .Rproj file
-#   Run codes one-by-one.
+
+#   Run source("scripts/run_project.R") runs all
+
+#   Or run one-by-one per order in run_project.R
+#   Run order:
+#     header.R
+#       setup.R
+
