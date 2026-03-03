@@ -6,4 +6,4 @@
 
 # To run the code set:
 #   Open the .Rproj file
-#   Rund codes one-by-one.
+#   Run codes one-by-one.
