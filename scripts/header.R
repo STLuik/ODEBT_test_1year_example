@@ -14,7 +14,7 @@ if (isTRUE(getOption("project_clean_workspace"))) {
   # After clearing, run setup again so packages are loaded.
 }
 
-utils_dir <- "Utils"
+utils_dir <- "scripts/Utils"
 # This is the folder where your helper .R files live.
 
 if (!dir.exists(utils_dir)) {

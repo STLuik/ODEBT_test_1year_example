@@ -1,4 +1,4 @@
-# scripts/setup.R
+# scripts/02_setup.R
 # This script installs (if needed) and loads the packages this project uses.
 
 required_packages <- c(
