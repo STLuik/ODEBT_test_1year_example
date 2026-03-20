@@ -1,8 +1,9 @@
 # ODEBT 2026
 # A code set of a modified version of the HELCOM "Oxygen debt" core indicator
-# Modifications by Stella-Theresa Luik
+# Modifications by Stella-Theresa Luik (stella.luik@taltech.ee)
 
-# This code should be written in a way that the input years can be changed easily.
+# This code is built using a dataset downloaded from ICES in January 2026.
+# All necessary input files to run the code are in: https://drive.google.com/file/d/1_tPKg-WIw0G0dAUtJnKvosoavBz4G4_B/view?usp=sharing
 
 # To run the code set:
 #   Open the .Rproj file
