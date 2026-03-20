@@ -7,9 +7,7 @@
 # To run the code set:
 #   Open the .Rproj file
 
-#   Run source("scripts/run_project.R") runs all
-
-#   Or run one-by-one per order in run_project.R
+#   Or run one-by-one 
 #   Run order:
 #     01_header.R
 #       02_setup.R
