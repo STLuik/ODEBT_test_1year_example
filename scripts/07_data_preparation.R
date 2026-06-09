@@ -320,8 +320,8 @@ bot_orig <- bot
 bot <- bot_orig[!is.na(bot_orig$Salinity_psu), ]
 
 # BOT data is missing hour and minute data sometimes - add 12:00 to replace the NA values.
-bot$Hour[is.na(bot$Hour)] <- 12
-bot$Minute[is.na(bot$Minute)] <- 0
+bot$Hour[is.na(bot$Hour)] <- "12"
+bot$Minute[is.na(bot$Minute)] <- "00"
 
 # Extract unique rows based on specified columns and get their indices:
 idx_bot <- bot %>%

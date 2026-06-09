@@ -1,4 +1,12 @@
-.Rproj.user
+# --- R / RStudio clutter ---
+.Rproj.user/
 .Rhistory
 .RData
 .Ruserdata
+
+# --- Data and generated results (keep out of GitHub) ---
+Input/
+Output/
+
+# Optional: keep downloaded zip archives out of GitHub too
+*.zip

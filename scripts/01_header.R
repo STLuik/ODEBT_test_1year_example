@@ -10,7 +10,7 @@ if (isTRUE(getOption("project_clean_workspace"))) {
   rm(list = ls(envir = .GlobalEnv), envir = .GlobalEnv)
   # This removes everything from the global workspace (the Environment tab).
   
-  if (!isTRUE(getOption("project_setup_done"))) source("scripts/02setup.R")
+  if (!isTRUE(getOption("project_setup_done"))) source("scripts/02_setup.R")
   # After clearing, run setup again so packages are loaded.
 }
 

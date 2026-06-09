@@ -4,13 +4,13 @@
 options(project_clean_workspace = FALSE)
 # This prevents accidental workspace wiping when you run this script by itself during testing.
 
-source("scripts/header.R")
+source("scripts/01_header.R")
 # This loads packages (via setup.R if needed) and loads Utils functions into oxydebt_funs (if you have Utils/).
 
 if (is.null(getOption("project_assessment"))) {
   # This checks whether the assessment settings (years + folders) have been defined.
   
-  source("scripts/00_define_assessment.R")
+  source("scripts/03_define_assessment.R")
   # If not defined, this sets the period and creates Input/Output folders for that period.
 }
 

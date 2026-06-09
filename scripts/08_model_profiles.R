@@ -4,7 +4,7 @@
 options(project_clean_workspace = FALSE)
 # This prevents accidental workspace wiping when you run this script by itself during testing.
 
-source("scripts/header.R")
+source("scripts/01_header.R")
 # This loads packages (via setup.R if needed) and loads Utils functions into oxydebt_funs (if you have Utils/).
 
 if (is.null(getOption("project_assessment"))) {
